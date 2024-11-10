@@ -1,5 +1,5 @@
 /*
-UDP == transmission control protocol 
+UDP == User Datagram Protocol
 
 PROS 
     1.smaller packets
