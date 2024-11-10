@@ -9,6 +9,8 @@ const promisev = new Promise((resolve, reject) => {
     }, 3000)
 })
 
+
+//using async we fetch the data which will come in later
 async function consume() {
     try {
         const response = await promisev
@@ -21,5 +23,7 @@ async function consume() {
 
 }
 
-
-consume()
+setTimeout(async()=>{
+ const hi = await consume()
+ console.log(hi)
+},5000)
