@@ -23,6 +23,8 @@ const PromiseTwo = new Promise((resolve, reject) => {
     }
 })
 
+// you get the value from the then parameter
+
 PromiseTwo
     .then((e) => {
         console.log(e)
