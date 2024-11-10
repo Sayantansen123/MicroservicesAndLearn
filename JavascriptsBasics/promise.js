@@ -17,9 +17,9 @@ const PromiseTwo = new Promise((resolve, reject) => {
     let error = false;
     if (!error) {
         console.log("async task is completed");
-        resolve({ name: "sayantan", age: 34 })
+        resolve({ name: "sayantan", age: 34 })//this value pass into the then
     } else {
-        reject("something went wrong")
+        reject("something went wrong")//this value to the catch
     }
 })
 
