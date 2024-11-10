@@ -34,4 +34,7 @@ PromiseTwo
     .catch((e) => {
         console.log(e)
     })
+    .finally(()=>{
+        console.log("the promise is resolved finally")
+    })
 
