@@ -36,6 +36,8 @@ Create a http server -->
 
 5.then in terminal write -- http-server .
 
+----------------------------------------------------------------------------------------------------
+
 HTTP 1.0 -->
 
    ![http1](https://github.com/user-attachments/assets/abeed719-2249-4a72-9300-64e6cfabf9b7)
@@ -50,7 +52,7 @@ HTTP 1.0 -->
 
    3.Buffering
 
-
+----------------------------------------------------------------------------------------------------
 
 HTTP 1.1 -->
 
@@ -63,3 +65,5 @@ HTTP 1.1 -->
    3.Streaming with chunk transfer (if u request a image it loads in part by part)
 
    4.Pipelining (disabled by default) (we can send all the get request together)
+
+  
