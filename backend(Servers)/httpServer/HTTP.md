@@ -50,7 +50,11 @@ HTTP 1.0
 
    3.Buffering
 
+
+
 HTTP 1.1
+
+   ![http1 1](https://github.com/user-attachments/assets/ec2e4e3a-b3e6-47f2-9b92-b4009e6e4456)
 
    1.Persisted TCP connection (dont closes the tcp connection after each call)
 
