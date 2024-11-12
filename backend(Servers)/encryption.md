@@ -34,3 +34,12 @@ Decryption: The corresponding private key in the pair is used to decrypt the cip
 
 ![image](https://github.com/user-attachments/assets/bef7ecca-32b5-4dac-be98-7fd01112b89d)
 
+---------------------------------------------------------------------------
+
+TLS 1.2-->
+
+Transport Layer Security (TLS) 1.2 is a protocol that encrypts and authenticates data transferred over a network. It's used by many devices and applications, including browsers, email, and instant messaging. TLS 1.2 is more secure than previous protocols like SSL 2.0, SSL 3.0, TLS 1.0, and TLS 1.1. Here are some of the features of TLS 1.2 encryption
+
+it shares a private symmetric key (which is kinda problem )
+
+![image](https://github.com/user-attachments/assets/23ac305e-e836-43d3-9476-8aede11e230a)
