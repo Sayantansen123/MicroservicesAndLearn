@@ -66,4 +66,20 @@ HTTP 1.1 -->
 
    4.Pipelining (disabled by default) (we can send all the get request together)
 
+
+HTTP/2 -->
+
+
+   1.Compression
+
+   2.Multiplexing
+
+   3.Server Push
+
+   4.SPDY
+
+   5.secure by default
+
+   6.Protocol Negotation
+
   
