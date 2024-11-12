@@ -62,4 +62,13 @@ The blue and the red one are the private key and the pink one is public.........
 
 Now they send the blue key with pink combined which is public but unbrekable, same with red and pink and send it to the both sides
 
+------------------------------------------------------------------------------
 
+TLS 1.3 -->
+
+In TLS 1.3 everything is like 1.2 just using diffie hellmann when we establishing connection with server we send 2 keys to the server and then the 
+server merge with its private key and get the unique key  then when server send the response to the client it will give its private key and public key together and then the client can create the unique key ............
+
+it was much faster and secure
+
+![image](https://github.com/user-attachments/assets/ffeb56fd-ff4f-4b96-ab2c-ed18ce23016d)
