@@ -1,6 +1,6 @@
 Lets see how a TCP connection extablish and we send req and get response 
 
-
+![image](https://github.com/user-attachments/assets/87060647-a5ea-42b5-8f4c-8632bb094a53)
 
 In the above diagram 
 
@@ -24,3 +24,5 @@ where,
 And after that the request is acsessed by the node js server and suppose it will send a json in its response 
 
 so the source will be the server now and destination will be client
+
+![image](https://github.com/user-attachments/assets/dfe616c7-7a9a-448a-aa1a-049bbf554009)
