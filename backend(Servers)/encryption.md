@@ -43,3 +43,23 @@ Transport Layer Security (TLS) 1.2 is a protocol that encrypts and authenticates
 it shares a private symmetric key (which is kinda problem )
 
 ![image](https://github.com/user-attachments/assets/23ac305e-e836-43d3-9476-8aede11e230a)
+
+it is slow .....
+
+-----------------------------------------------------------------------------
+
+But sending out your private key directly to the server can be dangarous because anyone can want to acsess it
+
+so, diffie - hellman come up with a solution 
+
+They come up with a complicated algorithm to combine 3 types of key to create the final private key to encrypt the data
+
+![image](https://github.com/user-attachments/assets/a96239bd-babe-45c6-b252-1754f1fdc545)
+
+The blue and the red one are the private key and the pink one is public...........
+
+![image](https://github.com/user-attachments/assets/20157cee-7719-41bb-bd22-1f42049e93b0)
+
+Now they send the blue key with pink combined which is public but unbrekable, same with red and pink and send it to the both sides
+
+
