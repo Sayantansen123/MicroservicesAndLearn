@@ -17,3 +17,13 @@ Weaknesses -->
 Uses -->
 
     Data security, secure communication, web browsing, cloud security, database encryption, and more
+
+---------------------------------------------------------------------------
+
+Asymmetric encryption, also known as public key encryption, is a method of encrypting and decrypting data using a public/private key pair:
+
+
+
+Encryption: The public key in the pair is used to encrypt plaintext.
+
+Decryption: The corresponding private key in the pair is used to decrypt the ciphertext.
