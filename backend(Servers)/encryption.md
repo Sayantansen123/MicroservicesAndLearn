@@ -22,7 +22,7 @@ Uses -->
 
 Asymmetric encryption, also known as public key encryption, is a method of encrypting and decrypting data using a public/private key pair:
 
-
+![image](https://github.com/user-attachments/assets/b2cc4cca-99d5-4043-9415-86dfb7d688fa)
 
 Encryption: The public key in the pair is used to encrypt plaintext.
 
