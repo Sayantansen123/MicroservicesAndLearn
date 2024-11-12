@@ -66,6 +66,7 @@ HTTP 1.1 -->
 
    4.Pipelining (disabled by default) (we can send all the get request together)
 
+----------------------------------------------------------------------------------------------------
 
 HTTP/2 -->
 
