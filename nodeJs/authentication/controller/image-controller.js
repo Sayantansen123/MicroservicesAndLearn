@@ -1,7 +1,7 @@
 const Image = require("../models/Image");
 const {uploadToCloudinary} = require("../helpers/cloudinaryHelper")
 
-const uploadImage = async(req,res)=>{
+const uploadImageController = async(req,res)=>{
     try {
         if(!req.file){
             return res.status(400).json({
@@ -39,5 +39,5 @@ const uploadImage = async(req,res)=>{
 }
 
 module.exports = {
-    uploadImage
+    uploadImageController,
   };
