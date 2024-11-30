@@ -106,6 +106,23 @@ const getProductAnalytics = async(req,res)=>{
                  category : "Electronics"
                 }
             }, 
+            {
+                $group:{
+                    _id:null,
+                    totalRevenue:{
+                        $sum : "$price"
+                    },
+                    averagePrice:{
+                        $avg : "$price"
+                    },
+                    maxProductPrice :{
+                        $max : "$price"
+                    },
+                    minProductPrice :{
+                        $min : "$price"
+                    }
+                }
+            }
             
                  
        ])
