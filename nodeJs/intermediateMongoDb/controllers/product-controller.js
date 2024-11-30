@@ -95,6 +95,8 @@ const getProductsStats = async(req,res)=>{
 
 }
 
+
+//prouct analysis routes
 const getProductAnalytics = async(req,res)=>{
     try {
        const result = await Product.aggregate([
@@ -104,7 +106,7 @@ const getProductAnalytics = async(req,res)=>{
                  category : "Electronics"
                 }
             }, 
-            //
+            
                  
        ])
        res.status(200).json({
