@@ -7,6 +7,7 @@ const myMiddleware = (req,res,next)=>{
 
 }
 
+//usig middlewares
 app.use(myMiddleware)
 
 
