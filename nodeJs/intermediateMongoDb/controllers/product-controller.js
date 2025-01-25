@@ -122,12 +122,20 @@ const getProductAnalytics = async(req,res)=>{
                         $min : "$price"
                     }
                 }
+            },{
+                $project:{
+                    _id:0,
+                    totalRevenue:1,
+                    averagePrice:1,
+                    maxProductPrice:1,
+                    minProductPrice:1,
+                }
             }
             
                  
        ])
        res.status(200).json({
-        succes:true,
+        success:true,
         data:result,
      })   
     } catch (error) {
