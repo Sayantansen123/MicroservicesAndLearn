@@ -6,7 +6,7 @@ class binarysearch {
         
         // Input area
         Scanner sc = new Scanner(System.in);
-     
+        sc.close();
         System.out.println("Enter the length of the array:");
         int arrayLength = sc.nextInt();
         int[] numbers = new int[arrayLength];
@@ -18,7 +18,7 @@ class binarysearch {
 
         System.out.println("Enter the number to search:");
         int searchNumber = sc.nextInt();
-
+        
         // Binary search
         int start = 0;
         int end = arrayLength - 1;
@@ -35,6 +35,7 @@ class binarysearch {
                 end = mid - 1; // Move to the left half
             }
         }
+        
 
         System.err.println("Number not found");
     }
