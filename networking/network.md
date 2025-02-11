@@ -138,6 +138,7 @@ Devices and media are the physical elements, or hardware, of the network. Hardwa
 Make a list of the network infrastructure components installed in your home network. Include the cables or wireless access points that provide your network connections.
 
 ### End Devices
+--------
 The network devices that people are most familiar with are called end devices, or hosts. These devices form the interface between users and the underlying communication network.
 
 Some examples of end devices are as follows:
