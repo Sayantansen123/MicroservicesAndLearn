@@ -58,6 +58,7 @@ In an internetwork or network with multiple segments, throughput cannot be faste
 
 There are many online speed tests that can reveal the throughput of an internet connection.
 
+
 ## 5. Client and Server Roles
 
 All computers connected to a network that participate directly in network communication are classified as hosts. Hosts can send and receive messages on the network. In modern networks, computer hosts can act as a client, a server, or both, as shown in the figure. The software installed on the computer determines which role the computer plays.
@@ -65,6 +66,7 @@ All computers connected to a network that participate directly in network commun
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
+
 
 ## 6. Peer-to-Peer Networks
 
@@ -100,3 +102,55 @@ The disadvantages of peer-to-peer networking:
 3..Not scalable
 
 4..All devices may act as both clients and servers which can slow their performance
+
+![alt text](image-4.png)
+
+A P2P application allows a device to act as both a client and a server within the same communication, as shown in the figure. In this model, every client is a server and every server is a client. P2P applications require that each end device provide a user interface and run a background service.
+
+Some P2P applications use a hybrid system where resource sharing is decentralized, but the indexes that point to resource locations are stored in a centralized directory. In a hybrid system, each peer accesses an index server to get the location of a resource stored on another peer.
+
+
+## 7. Multiple Roles in the Network
+A computer with server software can provide services simultaneously to one or many clients, as shown in the figure.
+
+Additionally, a single computer can run multiple types of server software. In a home or small business, it may be necessary for one computer to act as a file server, a web server, and an email server.
+
+A single computer can also run multiple types of client software. There must be client software for every service required. With multiple clients installed, a host can connect to multiple servers at the same time. For example, a user can check email and view a web page while instant messaging and listening to internet radio.
+
+
+## 8. Network Infrastructure
+The path that a message takes from its source to destination can be as simple as a single cable connecting one computer to another, or as complex as a network that literally spans the globe. This network infrastructure is the platform that supports the network. It provides the stable and reliable channel over which our communications can occur.
+
+The network infrastructure contains three categories of hardware components, as shown in the figure:
+
+1. End devices
+
+2. Intermediate devices
+
+3. Network media
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+Devices and media are the physical elements, or hardware, of the network. Hardware is often the visible components of the network platform such as a laptop, PC, switch, router, wireless access point, or the cabling used to connect the devices. Occasionally, some components may not be so visible. In the case of wireless media, messages are transmitted through the air using invisible radio frequencies or infrared waves.
+
+Make a list of the network infrastructure components installed in your home network. Include the cables or wireless access points that provide your network connections.
+
+# End Devices
+The network devices that people are most familiar with are called end devices, or hosts. These devices form the interface between users and the underlying communication network.
+
+Some examples of end devices are as follows:
+
+Computers (workstations, laptops, file servers, web servers)
+
+Network printers
+
+Telephones and teleconferencing equipment
+
+Security cameras
+
+Mobile devices (such as smart phones, tablets, PDAs, and wireless debit/credit card readers and barcode scanners)
+An end device (or host) is either the source or destination of a message transmitted over the network, as shown in the animation. In order to uniquely identify hosts, addresses are used. When a host initiates communication, it uses the address of the destination host to specify where the message should be sent.
+
+Click Play in the figure to see an animation of data flowing through a network.
