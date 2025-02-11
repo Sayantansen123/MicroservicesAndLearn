@@ -9,8 +9,11 @@ Every input device (mouse, keyboard, voice-activated receiver) will translate hu
 Computers use binary codes to represent and interpret letters, numbers and special characters with bits. A commonly used code is the American Standard Code for Information Interchange (ASCII). With ASCII, each character is represented by eight bits. For example:
 
 Capital letter: A = 01000001
+
 Number: 9 = 00111001
+
 Special character: # = 00100011
+
 Each group of eight bits, such as the representations of letters and numbers, is known as a byte.
 
 Codes can be used to represent almost any type of information digitally including computer data, graphics, photos, voice, video, and music.
