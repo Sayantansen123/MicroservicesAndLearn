@@ -9,7 +9,6 @@ const promisev = new Promise((resolve, reject) => {
     }, 3000)
 })
 
-
 //using async we fetch the data which will come in later
 async function consume() {
     try {

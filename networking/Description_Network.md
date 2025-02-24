@@ -177,3 +177,85 @@ The interconnection of ISPs that forms the backbone of the internet is a complex
 The top portion of the figure displays the simplest ISP connection option. It consists of a modem that provides a direct connection between a computer and the ISP. This option should not be used though, because your computer is not protected on the internet.
 
 As shown in the bottom portion of the figure, a router is required to securely connect a computer to an ISP. This is the most common connection option. It consists of using a wireless integrated router to connect to the ISP. The router includes a switch to connect wired hosts and a wireless AP to connect wireless hosts. The router also provides client IP addressing information and security for inside hosts.
+
+## 11. Cable and DSL Connections
+Most home network users do not connect to their service providers with fiber-optic cables. The figure illustrates common connection options for small office and home users. The two most common methods are as follows:
+
+Cable - Typically offered by cable television service providers, the internet data signal is carried on the same coaxial cable that delivers cable television. It provides a high bandwidth, always on, connection to the internet. A special cable modem separates the internet data signal from the other signals carried on the cable and provides an Ethernet connection to a host computer or LAN.
+
+DSL - Digital Subscriber Line provides a high bandwidth, always on, connection to the internet. It requires a special high-speed modem that separates the DSL signal from the telephone signal and provides an Ethernet connection to a host computer or LAN. DSL runs over a telephone line, with the line split into three channels. One channel is used for voice telephone calls. This channel allows an individual to receive phone calls without disconnecting from the internet. A second channel is a faster download channel, used to receive information from the internet. The third channel is used for sending or uploading information. This channel is usually slightly slower than the download channel. The quality and speed of the DSL connection depends mainly on the quality of the phone line and the distance from the central office of your phone company The farther you are from the central office, the slower the connection. 
+
+
+![alt text](image-9.png)
+
+
+## 12. Mobile Devices and Wi-Fi
+
+Mobile devices give us the freedom to work, learn, play, and communicate wherever we want. People using mobile devices do not need to be tied to a physical location to send and receive voice, video, and data communications. In addition, wireless facilities, such as internet cafes, are available in many countries. College campuses use wireless networks to allow students to sign up for classes, watch lectures, and submit assignments in areas where physical connections to the network are unavailable. With mobile devices becoming more powerful, many tasks that needed to be performed on large computers connected to physical networks can now be completed using mobile devices on wireless networks.
+
+Almost all mobile devices are capable of connecting to Wi-Fi networks. It is advisable to connect to Wi-Fi networks when possible because data used over Wi-Fi does not count against the cellular data plan. Also, because Wi-Fi radios use less power than cellular radios, connecting to Wi-Fi networks conserves battery power. Like other Wi-Fi-enabled devices, it is important to use security when connecting to Wi-Fi networks. These precautions should be taken to protect Wi-Fi communications on mobile devices:
+
+Never send login or password information using unencrypted text (plaintext).
+Use a VPN connection when possible if you are sending sensitive data.
+Enable security on home networks.
+Use WPA2 or higher encryption for security.
+
+## Configure Mobile Wi-Fi Connectivity
+
+If your mobile device does not prompt to connect to a Wi-Fi network, the network SSID broadcast may be turned off, or the device may not be set to connect automatically. Manually configure the Wi-Fi settings on the mobile device. Remember that SSIDs and passphrases must be typed exactly as entered on the wireless router setup or the device will not connect properly, as shown in the figure. SSID is the name assigned to a wireless network. Passphrase is what we normally use as the “wireless password”.
+
+## Typical Home Network Routers
+
+Small business and home routers typically have two primary types of ports:
+
+1. Ethernet Ports
+     These ports connect to the internal switch portion of the router. These ports are usually labeled “Ethernet” or “LAN”, as shown in the figure. All devices connected to the switch ports are on the same local network.
+
+2. Internet Port
+     This port is used to connect the device to another network. The internet port connects the router to a different network than the Ethernet ports. This port is often used to connect to the cable or DSL modem in order to access the internet.
+
+
+![alt text](image-10.png)
+
+
+##  LAN Wireless Frequencies
+
+The wireless technologies most frequently used in home networks are in the unlicensed 2.4 GHz and 5 GHz frequency ranges.
+
+Bluetooth is a technology that makes use of the 2.4 GHz band. It is limited to low-speed, short-range communications, but has the advantage of communicating with many devices at the same time. This one-to-many communication has made Bluetooth technology the preferred method for connecting computer peripherals such as wireless mice, keyboards and printers. Bluetooth is a good method for transmitting audio to speakers or headphones.
+
+Other technologies that use the 2.4 GHz and 5 GHz bands are the modern wireless LAN technologies that conform to the various IEEE 802.11 standards. Unlike Bluetooth technology, 802.11 devices transmit at a much higher power level giving them a great range and improved throughput. Certain areas of the electromagnetic spectrum can be used without a permit.
+
+![alt text](image-11.png)
+
+## Wired Network Technologies
+
+Although many home network devices support wireless communications, there are still a few applications where devices benefit from a wired switch connection that is not shared with other users on the network.
+
+The most commonly implemented wired protocol is the Ethernet protocol. Ethernet uses a suite of protocols that allow network devices to communicate over a wired LAN connection. An Ethernet LAN can connect devices using many different types of wiring media.
+
+EXAMPLE --
+
+   Category 5e Cable
+
+   Coaxial Cable
+
+   Fiber-Optic Cable
+
+
+## An access point (AP) is a device that allows wireless devices to connect to a wired network. It acts as a bridge between the wired network and the wireless devices, allowing them to access the network resources. 
+
+How it works 
+   An AP receives data from a device and converts it into a wireless signal
+
+   The AP broadcasts the signal over a specific frequency or channel
+
+   The device receives the signal and can communicate with other devices on the network
+
+Benefits
+   APs provide a wireless connection, allowing devices to connect without physical cables 
+
+   APs can be used to create a wireless network within an existing wired network 
+   
+   APs can be used to extend the range and strength of a wireless network 
+
