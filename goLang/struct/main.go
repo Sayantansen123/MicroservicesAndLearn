@@ -21,6 +21,23 @@ type truck struct {
 	Color string
 }
 
+func test(m car) {
+	fmt.Println("Sending car detail :", m.Make, m.Mode, m.Height, m.Width, m.FrontWheel)
+}
+
+func testTruck(m truck) {
+	fmt.Println("Sending car detail :", m.Make, m.Mode, m.Height, m.Width, m.FrontWheel, m.Color)
+}
+
+type rectangle struct {
+	lenght int
+	width  int
+}
+
+func (r rectangle) area() int {
+	return r.lenght * r.width
+}
+
 func main() {
 	// audi := car{} make all values to default u can change every value explicitly
 	audi := car{
@@ -40,12 +57,11 @@ func main() {
 
 	testTruck(truck1)
 
-}
+	r := rectangle{
+		lenght: 36,
+		width:  20,
+	}
 
-func test(m car) {
-	fmt.Println("Sending car detail :", m.Make, m.Mode, m.Height, m.Width, m.FrontWheel)
-}
+	fmt.Println(r.area())
 
-func testTruck(m truck) {
-	fmt.Println("Sending car detail :", m.Make, m.Mode, m.Height, m.Width, m.FrontWheel, m.Color)
 }
