@@ -30,3 +30,7 @@ func InferredVar() {
 	fmt.Println("This is same line declaration: ", mileage, company)
 
 }
+
+func names(name1, name2 string) (string, string) {
+	return name1, name2
+}

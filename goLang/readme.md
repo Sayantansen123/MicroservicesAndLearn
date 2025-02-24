@@ -39,3 +39,11 @@
    in default when a value is assigned to a variable the value stored in memroy and the adress is pointed by the variable ..
    so when u assign a another variable and do this var2 := var1 it makes a another copy of value inside the memory 
    so if u change te value of var2 it dont change the value of var1
+
+## if u dont want a value to implement in ur code 
+
+   just underscore the variable name so it dont throws a error
+
+## Naked return statement 
+   
+   if function dont return any variable then it will return the parameters
