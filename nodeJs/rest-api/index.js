@@ -1,7 +1,6 @@
 const express = require("express")
 
 //REST ==> Represntational State Transfer
-
 const app = express()
 
 app.use(express.json())//helps to parse json file
