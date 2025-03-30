@@ -5,6 +5,7 @@ import {ThemeContext, UserContext} from "./utils/context"
 import Context from "./components/UseContext";
 import ExpensiveComponent from "./components/UseMemo";
 import { CallBackNotUsed, CallBackUsed } from "./components/UseCallback";
+import {Counter, PreviousStateExample} from "./components/UseRef";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -30,8 +31,11 @@ function App() {
 
       {/* <ExpensiveComponent/> */}
 
-      <CallBackNotUsed/>
-      <CallBackUsed/>
+      {/* <CallBackNotUsed/>
+      <CallBackUsed/> */}
+
+      {/* <Counter/>
+      <PreviousStateExample/> */}
 
       </ThemeContext.Provider>
       </UserContext.Provider>
