@@ -6,7 +6,7 @@ function hello() {
 hello();
 
 (() => {
-    console.log("Db is connected")  //it calls immediately when the program runs no need to run it
+    console.log(Math.ceil(201/100))  //it calls immediately when the program runs no need to run it
 })(); //important
 
 ((name) => {

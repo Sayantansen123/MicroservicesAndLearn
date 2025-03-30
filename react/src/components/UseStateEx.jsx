@@ -28,7 +28,7 @@ const UseStateEx = () => {
       .then((json) => setData(json));
   }, []);
 
-  /* runs every 1 second and cleanup when un mounts
+ 
   useEffect(() => {
     const interval = setInterval(() => {
       console.log("Running...");
@@ -39,7 +39,7 @@ const UseStateEx = () => {
       console.log("Cleaned Up!");
     };
   }, []);
- */
+ 
 
   return (
     <div className='flex w-screen py-[40px] flex-col items-center gap-2 h-[900px] relative'>

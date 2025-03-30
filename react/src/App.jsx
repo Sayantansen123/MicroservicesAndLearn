@@ -1,3 +1,4 @@
+import Props from "./components/Props"
 import UseStateEx from "./components/UseStateEx"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <UseStateEx/>
+      {/* <Props name="sayantan" age="16"/> */}
     </>
   )
 }

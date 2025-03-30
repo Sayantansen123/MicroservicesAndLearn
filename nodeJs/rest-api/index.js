@@ -1,23 +1,18 @@
 const express = require("express")
+const cors = require("cors")
 
 //REST ==> Represntational State Transfer
 const app = express()
 
+app.use(cors());
 app.use(express.json())//helps to parse json file
 
 const books = [
-    {
-        "id": 1,
-        "name": "book1",
-    },
-    {
-        "id": 2,
-        "name": "book2"
-    },
-    {
-        "id": 3,
-        "name": "book3"
-    }
+        { type: "PAN", calls: 146  },
+        { type: "Aadhar", calls: 209 },
+        { type: "Voter", calls: 47 },
+        { type: "Vehicle RC", calls: 473 },
+        { type: "Passport", calls: 80} 
 ]
 
 app.get("/", (req, res) => {
@@ -26,7 +21,7 @@ app.get("/", (req, res) => {
 
 //get all books
 app.get("/get", (req, res) => {
-   res.send(books)
+   res.json(books)
 })
 
 //get a single book
