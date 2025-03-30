@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Props from "./components/Props"
 import UseStateEx from "./components/UseStateEx"
 import {ThemeContext, UserContext} from "./utils/context"
@@ -6,6 +6,7 @@ import Context from "./components/UseContext";
 import ExpensiveComponent from "./components/UseMemo";
 import { CallBackNotUsed, CallBackUsed } from "./components/UseCallback";
 import {Counter, PreviousStateExample} from "./components/UseRef";
+import UseImepartiveHandle from "./components/UseImepartiveHandle";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -14,6 +15,7 @@ function App() {
     name: "sayanatan",
     age: 16,
   }
+  const childRef = useRef(null);
 
   return (
     <>
@@ -36,6 +38,9 @@ function App() {
 
       {/* <Counter/>
       <PreviousStateExample/> */}
+
+      <UseImepartiveHandle ref={childRef}/>
+      <button onClick={() => childRef.current.showAlert()}>Call Child Function</button>
 
       </ThemeContext.Provider>
       </UserContext.Provider>
