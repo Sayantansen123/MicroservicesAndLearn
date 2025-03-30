@@ -4,6 +4,7 @@ import UseStateEx from "./components/UseStateEx"
 import {ThemeContext, UserContext} from "./utils/context"
 import Context from "./components/UseContext";
 import ExpensiveComponent from "./components/UseMemo";
+import { CallBackNotUsed, CallBackUsed } from "./components/UseCallback";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -28,6 +29,9 @@ function App() {
       {/* <Context/> */}
 
       {/* <ExpensiveComponent/> */}
+
+      <CallBackNotUsed/>
+      <CallBackUsed/>
 
       </ThemeContext.Provider>
       </UserContext.Provider>
