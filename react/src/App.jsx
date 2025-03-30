@@ -7,6 +7,7 @@ import ExpensiveComponent from "./components/UseMemo";
 import { CallBackNotUsed, CallBackUsed } from "./components/UseCallback";
 import {Counter, PreviousStateExample} from "./components/UseRef";
 import UseImepartiveHandle from "./components/UseImepartiveHandle";
+import ThemeToggle from "./components/UseReducer";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -39,8 +40,10 @@ function App() {
       {/* <Counter/>
       <PreviousStateExample/> */}
 
-      <UseImepartiveHandle ref={childRef}/>
-      <button onClick={() => childRef.current.showAlert()}>Call Child Function</button>
+      {/* <UseImepartiveHandle ref={childRef}/>
+      <button onClick={() => childRef.current.showAlert()}>Call Child Function</button> */}
+
+      <ThemeToggle/>
 
       </ThemeContext.Provider>
       </UserContext.Provider>
