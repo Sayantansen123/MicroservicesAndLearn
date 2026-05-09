@@ -31,7 +31,8 @@ class HashMap {
     this.TREEIFY_THRESHOLD = 4;
   }
 
-  // Better Hash Function
+  // Better Hash Function to distinguish between types and values, e.g., "123" vs 123, "true" vs true
+  // Combines type and string representation of the key to generate a more unique hash
   hash(key) {
     const typedKey = typeof key + ":" + String(key);
 
